@@ -1,0 +1,19 @@
+int main(void){
+  
+   int num;
+   int i = 0, j, k = 1;
+	printf("Digite um numero: ");
+	scanf("%i",&num);
+
+    while(i != num){
+        for(j = 0;j < k; ++j){
+            printf("!");
+            }
+            if(j == k){
+                k++;
+                printf("\n");
+        }i++;
+    }
+    
+    return 0;
+}
